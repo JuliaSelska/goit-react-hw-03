@@ -1,0 +1,43 @@
+.contactCard {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* Вирівнюємо контент */
+    align-items: center;
+    width: 300px;
+    /* Можна змінити залежно від дизайну */
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Додаємо відступ між іконкою та текстом */
+}
+
+.icon {
+    font-size: 18px;
+    /* Налаштовуємо розмір іконки */
+}
+
+.contactButton {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contactButton:hover {
+    background-color: lightgray;
+}
