@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsPersonFill } from "react-icons/bs";
 
-const Contact = ({ name, number }) => {
+const Contact = ({ id, name, number, onDeleteContact }) => {
     return (
         <div className={styles.contactCard}>
             <div className={styles.contactInfo}>
@@ -14,7 +14,9 @@ const Contact = ({ name, number }) => {
                     <BsFillTelephoneFill className={styles.icon} /> {number}
                 </p>
             </div>
-            <button className={styles.contactButton}>Delete</button>
+
+            <button onClick={() => onDeleteContact(id)} className={styles.contactButton}>Delete</button>
+
         </div>
     );
 };

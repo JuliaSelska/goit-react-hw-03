@@ -1,0 +1,26 @@
+.formContainer {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.formGroup {
+    margin-bottom: 10px;
+}
+
+.addButton {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}

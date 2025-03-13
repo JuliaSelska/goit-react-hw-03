@@ -5,10 +5,8 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    /* Вирівнюємо контент */
     align-items: center;
     width: 300px;
-    /* Можна змінити залежно від дизайну */
 }
 
 .contactInfo {
@@ -21,12 +19,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    /* Додаємо відступ між іконкою та текстом */
 }
 
 .icon {
     font-size: 18px;
-    /* Налаштовуємо розмір іконки */
 }
 
 .contactButton {

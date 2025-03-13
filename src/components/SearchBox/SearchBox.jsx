@@ -1,9 +1,13 @@
+import styles from './SearchBox.module.css'
+
+
 const SearchBox = ({ filter, onFilterChange }) => {
     return (
-        <div>
+        <div className={styles.searchContainer}>
             <label>
                 Find contacts by name:
                 <input
+                    className={styles.input}
                     type="text"
                     value={filter}
                     onChange={(event) => {

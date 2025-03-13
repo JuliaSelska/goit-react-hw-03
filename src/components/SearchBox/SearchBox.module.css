@@ -1,0 +1,17 @@
+.searchContainer {
+    background-color: #f9f9f9;
+    margin: 20px 2px;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.input {
+    width: 100%;
+    padding: 6px;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    justify-content: left;
+}
