@@ -4,11 +4,28 @@
     border-radius: 8px;
     background-color: white;
     margin-bottom: 20px;
-    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .formGroup {
     margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .addButton {

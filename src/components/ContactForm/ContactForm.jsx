@@ -38,14 +38,14 @@ const ContactForm = ({ onAddContact }) => {
             validationSchema={ContactSchema}>
             <Form className={styles.formContainer}>
                 <div className={styles.formGroup}>
-                    <label htmlFor={nameFieldId}>Name</label>
-                    <Field type="text" name="name" id={nameFieldId} />
+                    <label className={styles.label} htmlFor={nameFieldId}>Name</label>
+                    <Field className={styles.input} type="text" name="name" id={nameFieldId} />
                     <ErrorMessage name="name" component="span" />
                 </div>
 
                 <div className={styles.formGroup}>
-                    <label htmlFor={numberFieldId}>Number</label>
-                    <Field type="number" name="number" id={numberFieldId} />
+                    <label className={styles.label} htmlFor={numberFieldId}>Number</label>
+                    <Field className={styles.input} type="number" name="number" id={numberFieldId} />
                     <ErrorMessage name="number" component="span" />
                 </div>
 
